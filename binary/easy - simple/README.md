@@ -16,7 +16,7 @@ This is the first re challenge, so it's fairly simple. during the first analysis
 
 Below is summary of the algorithm
 
-![summary](https://github.com/najashark/KICTM-2017-CTF-Writeup/blob/master/easy%20-%20simple/images/1.PNG "summary")
+![image](https://user-images.githubusercontent.com/2675341/30988879-59d32560-a4ce-11e7-9578-2d841c36c2fc.png)
 
 
 
