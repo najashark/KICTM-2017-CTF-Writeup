@@ -16,9 +16,9 @@ This is the second re challenge, so it's quite simple. during the first analysis
 
 below is summary of the analysis, here I found out it needs and argument which then it will used as a xor key to decode the flag
 
-![summary](images/1.png "summary")
+![summary](https://github.com/najashark/KICTM-2017-CTF-Writeup/blob/master/medium%20-%20rox/images/1.PNG "summary")
 
-![decrypt](images/2.png "decrypt function")
+![decrypt](https://github.com/najashark/KICTM-2017-CTF-Writeup/blob/master/medium%20-%20rox/images/2.PNG "decrypt function")
 
 
 
