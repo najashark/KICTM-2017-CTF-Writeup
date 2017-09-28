@@ -15,8 +15,8 @@ iCTFF introduces a theme namely "We Train the Newbies for the Future". We hope t
 - easy - lol
 - easy - simple
 - medium - rox
+- medium - trial and success
 
 **Pending Writeup**
 
-- medium - trial and success
 - all web challenge
