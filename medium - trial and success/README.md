@@ -16,7 +16,7 @@ This is the third re challenge, so it's quite confusing, lol. We getting to much
 
 below is summary of the analysis, actually we can only use the disassembler to solve this questions and get the pass.
 
-![summary](images/1.png "summary")
+![summary](https://github.com/najashark/KICTM-2017-CTF-Writeup/blob/master/medium%20-%20trial%20and%20success/images/1.PNG "summary")
 
 
 And to get the key, we can create simple code which is ripped from ida like this:
