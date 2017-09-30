@@ -39,7 +39,7 @@ Next just write a simple script to iterate a list of weak passwords and feed it 
 The breakdown is quite straightworward :
 
 send a POST request to `http://<ip>:<port>/` with parameters "**p**=$wordlist_line" and "**u**=admin" and hash the response body.
-All the response body should return the same if the it fails  but if we hit the jackpot the response body will return the key and the hash will change.
+All the response body should return the same if it fails but if we hit the jackpot the response body will return the key and the hash will change.
 
 ```bash
 while IFS='' read -r line || [[ -n "$line" ]]; do
@@ -67,4 +67,4 @@ Unfortunately on the generated HTML of the index page there is no "**password**"
 
 One could argue that you need to assume there is some unknown parameters, but just consider the exponential growth in entropy and keyspace here if we need to bruteforce both the actual password and a random non-existant parameter name at the same time...
 
-So we conclude that the question is broken in the first place. Check out the [source code & judge for yourself](https://github.com/najashark/KICTM-2017-CTF-Writeup/blob/master/web/weak/index.php)
+So we conclude that the question is broken in the first place. Check out the [source code & judge for yourself](https://github.com/najashark/KICTM-2017-CTF-Writeup/blob/master/web/weak/index.php) ![smile icon](http://unbrilium.hol.es/smilies/?icon=grin&cache=CDN)
