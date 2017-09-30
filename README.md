@@ -16,9 +16,13 @@ iCTFF introduces a theme namely "We Train the Newbies for the Future". We hope t
 - easy - simple
 - medium - rox
 - medium - trial and success
+- easy - sos
+- medium - authorize
+- medium - restricted
 
 **Pending Writeup**
 
-- all web challenge
+- weak
+- admin
 
 This Writeup is brought to you by Alejnd Alliance <img src="https://github.com/Codeshift3r/AleJnd-Questions/blob/master/img/alejnd.png" width="40">
