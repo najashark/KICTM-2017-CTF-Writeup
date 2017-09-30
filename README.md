@@ -22,7 +22,6 @@ iCTFF introduces a theme namely "We Train the Newbies for the Future". We hope t
 
 **Pending Writeup**
 
-- weak
 - admin
 
-This Writeup is brought to you by Alejnd Alliance <img src="https://github.com/Codeshift3r/AleJnd-Questions/blob/master/img/alejnd.png" width="40">
+This Writeup is brought to you by Alejnd Alliance <img src="https://github.com/najashark/KICTM-2017-CTF-Writeup/blob/master/logo.png?raw=true" width="40">
