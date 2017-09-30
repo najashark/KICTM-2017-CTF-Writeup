@@ -67,4 +67,4 @@ Unfortunately on the generated HTML of the index page there is no "**password**"
 
 One could argue that you need to assume there is some unknown parameters, but just consider the exponential growth in entropy and keyspace here if we need to bruteforce both the actual password and a random non-existant parameter name at the same time...
 
-So we conclude that the question is broken in the first place. Check out the [source code & judge for yourself](https://github.com/najashark/KICTM-2017-CTF-Writeup/blob/master/web/weak/index.php) ![smile icon](http://unbrilium.hol.es/smilies/?icon=grin&cache=CDN)
+So we conclude that the question is broken in the first place. Check out the [source code & judge for yourself](https://github.com/najashark/KICTM-2017-CTF-Writeup/blob/master/web/weak/index.php)
