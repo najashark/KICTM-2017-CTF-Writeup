@@ -38,7 +38,7 @@ Next just write a simple script to iterate a list of weak passwords and feed it 
 
 The breakdown is quite straightworward :
 
-send a POST request to http://<ip>:<port>/ with parameters "**p**=$wordlist_line" and "**u**=admin" and hash the response body.
+send a POST request to `http://<ip>:<port>/` with parameters "**p**=$wordlist_line" and "**u**=admin" and hash the response body.
 All the response body should return the same if the fail but if we hit the jackpot the response body will return the key and the hash will change.
 
 ```bash
@@ -60,15 +60,11 @@ Run that and feed it with danielmiessler seclist collection of 10k most common p
 
 But unfortunately this is not the case, we didn't solve this even after throwing rockyou at it... so what's the catch?
 
-The catch is the simple fact that the question itself is buggy and broken. After the competition, we *ehem* managed to acquire the source code and
-
-noticed that there is a check on a parameter named "**password**" before the rest of the parameter is being checked.
+The catch is the simple fact that the question itself is buggy and broken. After the competition, we *ehem* managed to acquire the source code and noticed that there is a check on a parameter named "**password**" before the rest of the parameter is being checked.
 
 
 Unfortunately on the generated HTML of the index page there is no "**password**" parameter present thus it making it impossible for anyone to solve the question that the time.
 
-One could argue that you need to assume there is some unknown paramters, but just consider the exponential growth in entropy and keyspace here if
-
-we need to bruteforce both the actual password and a random non-existant parameter name at the same time...
+One could argue that you need to assume there is some unknown paramters, but just consider the exponential growth in entropy and keyspace here if we need to bruteforce both the actual password and a random non-existant parameter name at the same time...
 
 So we conclude that the question is broken in the first place. Check out the [source code & judge for yourself](https://github.com/najashark/KICTM-2017-CTF-Writeup/blob/master/web/weak/index.php)
