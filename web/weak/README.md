@@ -39,7 +39,7 @@ Next just write a simple script to iterate a list of weak passwords and feed it 
 The breakdown is quite straightworward :
 
 send a POST request to `http://<ip>:<port>/` with parameters "**p**=$wordlist_line" and "**u**=admin" and hash the response body.
-All the response body should return the same if the it fails  but if we hit the jackpot the response body will return the key and the hash will change.
+All the response body should return the same if it fails but if we hit the jackpot the response body will return the key and the hash will change.
 
 ```bash
 while IFS='' read -r line || [[ -n "$line" ]]; do
