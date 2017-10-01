@@ -16,7 +16,7 @@ By process of elimination we can determine which characters or string sequence t
 "/*"
 ```
 
-since "** or **" is blacklisted, we can't use "**or**" but "**=**" can be used without a space character prefix & postfix.
+since " **or** " is blacklisted, we can't use " **or** " but "**=**" can be used without a space character prefix & postfix.
 so it can still be used as a valid sql syntax. So our query could be constructed around "**=**" to bypass the system's logic.
 for comment, only "**#**" is allowed.
 
@@ -54,10 +54,10 @@ we realize some problem with the question.
 
 The above snippet shows the correct payload that need to be submitted through "**u**" parameter in order to get the flag.
 As you can see, there is no actual SQLi query being made and the program is simply a 'checker' that takes the input $i and
-see if it matches "*\'=\'\' limit 1,1#*" to echo out the flag. The right thing to do is to simulate a real vulnerable code base
+see if it matches "*__\'=\'\' limit 1,1#__*" to echo out the flag. The right thing to do is to simulate a real vulnerable code base
 in which an actual query is made to the backend database. This will open up more possibilities of valid payload that can spawn the flag.
 
-As we know, in the real world there is more than one way to achive anything, and limiting the correct payload to exactly "*\'=\'\' limit 1,1#*"
+As we know, in the real world there is more than one way to achive anything, and limiting the correct payload to exactly "*__\'=\'\' limit 1,1#__*"
 is not a fair way of accessing the situation. There should not be any problems concerning the probability of students poping a shell through the sqli
 and overstepping the challange boundry if the database is set up properly with various mitigations (disable xp_cmdshell, strip INTO OUTFILE etc.)
 
