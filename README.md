@@ -26,8 +26,7 @@ iCTFF introduces a theme namely "We Train the Newbies for the Future". We hope t
 - the network challenge aka "Netrider challenge"
 
 If there is no flag in it, I supposed it should not be called "Capture The Flag" right?
-you should change to more suitable challenge and not brands specific.
-Just my 2 cents.
+you should change to more suitable challenge but again, to each of its own.
 
 
 
